@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background: #64D9D0;
+    background: -moz-linear-gradient(top, #64D9D0 0%, #58B4D9 50%, #4D8EE2 100%);
+    background: -webkit-linear-gradient(top, #64D9D0 0%, #58B4D9 50%, #4D8EE2 100%);
+    background: linear-gradient(to bottom, #64D9D0 0%, #58B4D9 50%, #4D8EE2 100%);
+    background-repeat: no-repeat;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px;
+  }
+  
+  .inputText {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  .buttonAdd {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border:none;
+  }
+  
+  .tableTodo {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableTodo td {
+    padding: 10px 0;
+  }
+  
+  .handleButton {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .handleButton:hover {
+    background: #F44336;
+    background: -moz-linear-gradient(top, #F44336 0%, #F45A5A 50%, #F47C77 100%);
+    background: -webkit-linear-gradient(top, #F44336 0%, #F45A5A 50%, #F47C77 100%);
+    background: linear-gradient(to bottom, #F44336 0%, #F45A5A 50%, #F47C77 100%);
+  }
+
+  .total {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  #pending {
+    font-size: 18px;
+    margin: 20px 30px 20px;
+    font-weight: 550;
+}
+.buttonTotal {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border:none;
+    margin: 20px 30px 20px;
+  }
